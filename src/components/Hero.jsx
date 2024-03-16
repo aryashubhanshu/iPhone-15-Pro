@@ -29,7 +29,7 @@ const Hero = () => {
     });
     gsap.to("#cta", {
       opacity: 1,
-      y: -60,
+      y: window.innerWidth < 768 ? -50 : -100,
       delay: 2,
     });
   }, []);
