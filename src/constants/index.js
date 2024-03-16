@@ -16,6 +16,8 @@ export const navLists = [
   "Watch",
   "Airpods",
   "TV & Home",
+  "Entertainment",
+  "Accessories",
   "Support",
 ];
 
